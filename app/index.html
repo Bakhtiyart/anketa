@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Анкета</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+<div class="page-wrap">
+
+	<header class="header">
+		<div class="header-top">
+			<div class="logo-wrap">
+				<a class="logo">
+					creative<span>made</span>.ru
+				</a>
+				<p>Разработка интернет решений для продаж</p>
+			</div>
+
+			<div class="top-secret">
+				<img src="img/docs.png" alt="top-secret" class="top-secret__img">
+			</div>
+		</div>
+		<div class="header-middle">
+			<svg class="docs__icon" >
+				<use xlink:href="img/symbol/sprite.svg#doc"></use>
+			</svg>
+		</div>
+	</header>
+	<div class="content">
+		<div class="form">
+			<div class="form-row">
+				<p class="form__name">Полное ФИО</p>
+				<p class="form__value">Таиров Бахтияр Кыясович</p>
+			</div>
+			<div class="form-row">
+				<p class="form__name">Год рождения</p>
+				<p class="form__value">1984 г</p>
+			</div>
+			<div class="form-row">
+				<p class="form__name">Место жительства</p>
+				<p class="form__value">г. Чирчик, Ташкентская обл.</p>
+			</div>
+			<div class="form-row">
+				<p class="form__name">Телефон/Телеграм</p>
+				<p class="form__value">+998 90 409 0736</p>
+			</div>
+			<div class="form-row">
+				<p class="form__name">Почта</p>
+				<p class="form__value">bakhtiyarkhozha@gmail.com</p>
+			</div>
+		</div>
+
+		<div class="about">
+			<div class="about-desc">
+				<h4>Расскажите о себе чекбоксами</h4>
+				<p>Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. (пункт/пункт/пункт - пункты в которых несколько технологий, оставьте только те которыми владеете)</p>
+			</div>
+			<form class="about-form">
+				<ul class="about-form__list">
+					<li><input type="checkbox" id="numberOne" checked><label for="numberOne">Бэм</label></li>
+					<li><input type="checkbox" id="numberTwo"><label for="numberTwo">Pug/Jade</label></li>
+					<li><input type="checkbox" id="numberThree" checked><label for="numberThree">Sass</label></li>
+					<li><input type="checkbox" id="numberFour" checked><label for="numberFour">Работаю с SVG</label></li>
+					<li><input type="checkbox" id="numberFive"><label for="numberFive">Верстаю семантично</label></li>
+					<li><input type="checkbox" id="numberSix"><label for="numberSix">Accessibility(A11Y)</label></li>
+					<li><input type="checkbox" id="numberSeven"><label for="numberSeven">ES2015/ES2016</label></li>
+					<li><input type="checkbox" id="numberEight" checked><label for="numberEight">Gulp</label></li>
+					<li><input type="checkbox" id="numberNine"><label for="numberNine">Webpack</label></li>
+					<li><input type="checkbox" id="numberTen"><label for="numberTen">Дружу с WebGL</label></li>
+					<li><input type="checkbox" id="numberEleven" checked><label for="numberEleven">jQuery</label></li>
+					<li><input type="checkbox" id="numberTwelwe"><label for="numberTwelwe">Изучаю Angular</label></li>
+					<li><input type="checkbox" id="numberThirteen"><label for="numberThirteen">Изучаю React</label></li>
+					<li><input type="checkbox" id="numberFourteen"><label for="numberFourteen">Изучаю Node.js</label></li>
+					<li><input type="checkbox" id="numberFifteen"><label for="numberFifteen">Верстаю Pixel perfect</label></li>
+					<li><input type="checkbox" id="numberSixteen"><label for="numberSixteen">Всегда в сети онлайн</label></li>
+					<li><input type="checkbox" id="numberSeventeen" ><label for="numberSeventeen">Я ленивый</label></li>
+				</ul>
+			</form>
+
+			<div class="level">
+					<h4 class="desc">Уровень владения JavaScript</h4>
+				<div class="rangeslider-wrap">
+					<input id="input" type="range" min="1" max="754" value="147" class="rangeslider">
+					<div class="level-value">
+						<span>Не владею</span>
+						<span>Использую готовые решения</span>
+						<span>Использую готовые решения <br> и умею их переделывать</span>
+						<span>Пишу сложный JS с нуля</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	<div class="block"> <h4 class="desc">Расскажите о себе словами</h4>
+		<p>Напишите пару предложений, чем вас привлекла наша вакансия и чего вы
+		ожидаете от работы в Creativemade.ru Кстати, будет здорово, если при
+		нехватке места для текста строки будут добавляться автоматически.</p> 
+		<textarea class="text" ></textarea>
+	</div>
+	<div class="plans">
+		<h4 class="desc">Какие у вас планы на будущее?</h4>
+		<p>Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.</p>
+		<form class="radio-buttons">
+			<ul>
+				<li><input type="radio" name="plan" id="number-1"><label for="number-1">Верстать</label></li>
+				<li><input type="radio" name="plan" id="number-2"><label for="number-2">Прокачиваться в JS</label></li>
+				<li><input type="radio" name="plan" id="number-3"><label for="number-3">Менеджерство</label></li>
+				<li><input type="radio" name="plan" id="number-4" checked><label for="number-4">Другое</label></li>
+			</ul>
+		</form>
+	</div>
+	<div class="data">
+		<p class="data__name">Дата заполнения</p>
+		<p class="data__value">23.08.2019 г</p>
+	</div>
+	</div>
+	
+
+
+
+</div>
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
